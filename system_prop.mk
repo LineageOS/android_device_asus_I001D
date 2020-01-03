@@ -70,6 +70,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.asus.hdr=1 \
     ro.asus.wcg=1
 
+# Fingerprint
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.asus.fp.wakeup=true
+
 # GPS
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.overlay.izat.optin=rro
