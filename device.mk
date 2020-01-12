@@ -98,7 +98,7 @@ PRODUCT_PACKAGES += \
 
 # Display
 PRODUCT_PACKAGES += \
-    libvulkan
+    FrameRateTile
 
 # Lights
 PRODUCT_PACKAGES += \
