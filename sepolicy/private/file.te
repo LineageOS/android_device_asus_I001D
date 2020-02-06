@@ -9,3 +9,5 @@ type sysfs_rg_led, sysfs_type, fs_type;
 type sysfs_graphics, sysfs_type, fs_type;
 
 type sysfs_touchscreen, sysfs_type, fs_type;
+
+type sysfs_battery_supply, sysfs_type, fs_type;
