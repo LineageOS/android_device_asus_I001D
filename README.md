@@ -1,1 +1,1 @@
-Device tree for Asus Zenfone 6 ZS630KL
+Device tree for Asus ROG Phone II
