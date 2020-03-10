@@ -1,6 +1,6 @@
 [
   {
-    "repository": "android_kernel_asus_sm8150",
-    "target_path": "kernel/asus/sm8150"
+    "repository": "android_kernel_asus_I001",
+    "target_path": "kernel/asus/I001"
   }
 ]
