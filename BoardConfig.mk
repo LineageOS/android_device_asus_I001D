@@ -18,6 +18,9 @@ BOARD_VENDOR := asus
 
 DEVICE_PATH := device/asus/I001D
 
+# Assert
+TARGET_OTA_ASSERT_DEVICE := ASUS_I001_1
+
 # Build
 ALLOW_MISSING_DEPENDENCIES := true
 
