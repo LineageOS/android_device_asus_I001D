@@ -11,7 +11,7 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 PRODUCT_BRAND := asus
 PRODUCT_DEVICE := I001D
 PRODUCT_MANUFACTURER := asus
-PRODUCT_MODEL := ASUS_I001D
+PRODUCT_MODEL := ASUS_I001_1
 PRODUCT_NAME := lineage_I001D
 
 PRODUCT_GMS_CLIENTID_BASE := android-asus
