@@ -78,6 +78,17 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.overlay.izat.optin=rro
 
+# LMKD
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.lmk.use_minfree_levels=true \
+    ro.lmk.use_psi=false \
+    ro.lmk.low=1001 \
+    ro.lmk.medium=800 \
+    ro.lmk.critical=200 \
+    ro.lmk.kill_heaviest_task=true \
+    ro.lmk.upgrade_pressure=100 \
+    ro.lmk.downgrade_pressure=100
+
 # Media
 PRODUCT_PROPERTY_OVERRIDES += \
     media.settings.xml=/system/etc/media_profiles_vendor.xml
