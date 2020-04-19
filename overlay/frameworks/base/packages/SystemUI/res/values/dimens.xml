@@ -18,4 +18,12 @@
 <resources>
     <dimen name="rounded_corner_content_padding">0dp</dimen>
     <dimen name="system_icons_keyguard_padding_end">4dp</dimen>
+
+    <!-- Height of the sliding KeyguardSecurityContainer
+         (includes 2x keyguard_security_view_top_margin) -->
+    <dimen name="keyguard_security_height">560dp</dimen>
+
+    <!-- Max Height of the sliding KeyguardSecurityContainer
+         (includes 2x keyguard_security_view_top_margin) -->
+    <dimen name="keyguard_security_max_height">590dp</dimen>
 </resources>
