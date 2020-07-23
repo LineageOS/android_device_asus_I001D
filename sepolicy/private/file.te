@@ -3,8 +3,6 @@ type log_file, file_type;
 type voucher_file, file_type;
 type xrom_file, file_type;
 
-type sysfs_googlekey, sysfs_type, fs_type;
-
 type sysfs_rg_led, sysfs_type, fs_type;
 type sysfs_graphics, sysfs_type, fs_type;
 
