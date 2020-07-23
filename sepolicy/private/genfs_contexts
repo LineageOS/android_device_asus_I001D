@@ -1,5 +1,3 @@
-genfscon sysfs /devices/platform/soc/soc:asustek_googlekey/googlekey_enable	u:object_r:sysfs_googlekey:s0
-
 genfscon sysfs /devices/platform/goodix_ts.0/gesture/dclick			u:object_r:sysfs_touchscreen:s0
 genfscon sysfs /devices/platform/goodix_ts.0/gesture/gesture_type		u:object_r:sysfs_touchscreen:s0
 genfscon sysfs /devices/platform/goodix_ts.0/gesture/glove_mode			u:object_r:sysfs_touchscreen:s0
