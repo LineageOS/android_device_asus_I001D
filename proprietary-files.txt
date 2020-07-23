@@ -5,7 +5,8 @@ product/lib/com.qualcomm.qti.ant@1.0.so
 product/lib64/com.qualcomm.qti.ant@1.0.so
 
 # Bluetooth (aptX)
--app/aptxals/aptxals.apk
+# Smali edit: https://gist.github.com/luca020400/b0152c9b77e55f50eee0513cf666f61c
+-app/aptxals/aptxals.apk|95460dc333497f15e4e15d99842fb06be8dbd3ef
 product/lib64/libaptX_encoder.so|df1c89d7af1bb35808d5fe3496b04ba066c10cbc
 product/lib64/libaptXHD_encoder.so|e13fa70c97caaa24d061678bdee608eb8850a69e
 
