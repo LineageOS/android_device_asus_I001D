@@ -97,6 +97,10 @@ PRODUCT_PACKAGES += \
 
 # Display
 PRODUCT_PACKAGES += \
+    vendor.display.config@1.7 \
+    vendor.display.config@1.7.vendor \
+    libdisplayconfig \
+    libqdMetaData \
     FrameRateTile
 
 # Lights
@@ -176,3 +180,10 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES_DEBUG += \
     update_engine_client
+
+# WiFi Display
+PRODUCT_PACKAGES += \
+    libnl
+
+PRODUCT_BOOT_JARS += \
+    WfdCommon
