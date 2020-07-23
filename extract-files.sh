@@ -74,4 +74,7 @@ patchelf --remove-needed android.hidl.base@1.0.so \
 sed -i 's/<library name="android.hidl.manager-V1.0-java"/<library name="android.hidl.manager@1.0-java"/g' \
         "${LINEAGE_ROOT}/vendor/${VENDOR}/${DEVICE}/proprietary/etc/permissions/qti_libpermissions.xml"
 
+sed -i 's/android.hidl.base@1.0.so/libhidlbase.so\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00/' \
+        "${LINEAGE_ROOT}/vendor/${VENDOR}/${DEVICE}/proprietary/lib64/libwfdnative.so"
+
 "${MY_DIR}/setup-makefiles.sh"
