@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "94a308e1_ba7bce03",
+        "filename": "extract-files.sh",
+        "patchSetId": 1
+      },
+      "lineNbr": 77,
+      "author": {
+        "id": 11883
+      },
+      "writtenOn": "2020-07-24T12:17:20Z",
+      "side": 1,
+      "message": "patchelf --remove-needed android.hidl.base@1.0.so",
+      "range": {
+        "startLine": 77,
+        "startChar": 0,
+        "endLine": 77,
+        "endChar": 92
+      },
+      "revId": "d9e3653dc938f9f094e7cad637f3246f0a0fd617",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
