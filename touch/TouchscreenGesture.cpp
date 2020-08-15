@@ -50,14 +50,14 @@ const std::map<int32_t, TouchscreenGesture::GestureInfo> TouchscreenGesture::kGe
     // clang-format on
 };
 
-const uint8_t kKeyMaskGestureControl = 0x40;
+const uint8_t kKeyMaskGestureControl = 0x01;
 const std::vector<uint8_t> kGestureMasks = {
-    0x04,  // C gesture mask
+    0x10,  // C gesture mask
     0x08,  // e gesture mask
-    0x10,  // S gesture mask
-    0x01,  // V gesture mask
-    0x20,  // W gesture mask
-    0x02,  // Z gesture mask
+    0x04,  // S gesture mask
+    0x40,  // V gesture mask
+    0x02,  // W gesture mask
+    0x20,  // Z gesture mask
 };
 
 Return<void> TouchscreenGesture::getSupportedGestures(getSupportedGestures_cb resultCb) {
